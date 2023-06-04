@@ -988,7 +988,7 @@ main {
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (min-width: 300px) {
   /**
    * client
    */
@@ -996,7 +996,16 @@ main {
   /**
    * #PORTFOLIO, BLOG 
    */
-
+  .navbar {
+    position: fixed;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    border-radius: 0px 0 20px 20px;
+    width: 100%;
+    box-shadow: none;
+  }
   .project-img {
     height: auto;
   }
@@ -1128,7 +1137,6 @@ main {
    */
 
   .navbar {
-    border-radius: 20px 20px 0 0;
   }
 
   .navbar-list {
@@ -1138,7 +1146,25 @@ main {
   .navbar-link {
     --fs-8: 14px;
   }
+  .navbar {
+    position: fixed;
+    bottom: auto;
+    top: 0;
+    left: auto;
+    right: 0;
+    border-radius: 0px 0 20px 20px;
+    width: 100%;
+    box-shadow: none;
+  }
 
+  /* .navbar-list {
+    gap: 30px;
+    padding: 0 20px;
+  } */
+  /* 
+  .navbar-link {
+    font-weight: var(--fw-500);
+  } */
   /**
    * #ABOUT
    */
