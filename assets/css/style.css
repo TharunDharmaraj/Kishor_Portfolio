@@ -1001,16 +1001,26 @@ main {
     bottom: auto;
     top: 0;
     left: auto;
+    height: auto;
     right: 0;
     border-radius: 0px 0 20px 20px;
     width: 100%;
     box-shadow: none;
   }
+
+  .sidebar {
+    margin-top: 3.5rem;
+  }
   .project-img {
     height: auto;
-  }
+    position: relative;
+    width: 100%;
+        border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
-
+}
+}
 /**
  * responsive larger than 580px screen
  */
