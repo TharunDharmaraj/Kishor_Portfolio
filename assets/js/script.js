@@ -46,12 +46,7 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     testimonialsModalFunc();
   });
 }
-// JavaScript
-Array.prototype.forEach.call(document.querySelector("img"), function (elem) {
-    elem.addEventListener("click", function () {
-        elem.classList.toggle("enlarged");
-    });
-});
+
 // add click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
