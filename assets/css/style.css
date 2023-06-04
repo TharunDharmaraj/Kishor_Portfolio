@@ -3,6 +3,10 @@
    * colors
    */
 
+  .enlarged {
+    width: 400px;
+    height: 300px;
+}
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
@@ -1074,6 +1078,15 @@ main {
 
 .project-item > a:hover img {
   transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari and Chrome */
 }
 
 .project-title,
