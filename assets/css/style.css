@@ -140,6 +140,7 @@ html {
 }
 
 body {
+  margin:auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: var(--smoky-black);
 }
@@ -313,7 +314,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  max-height: 10000px;
 }
 
 .sidebar-info {
